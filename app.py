@@ -78,15 +78,16 @@ def main():
                 st.success(f"Prediction: {prediction}")
 
     elif option == "What to do":
-        st.markdown("<h2 style='text-align: center;'>Deficiency Explanations</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: black;'>Deficiency Explanations</h2>", unsafe_allow_html=True)
         with st.expander("P_Deficiency"):
-            st.write("To fix phosphorus deficiency, use fertilizers like superphosphate, bone meal, or rock phosphate.")
+             st.write("पौधों की फॉस्फोरस कमी को दूर करने के लिए, पीएच समायोजन, फास्फोरस युक्त पोषण, सही तापमान, और अनुपात का ध्यान रखने के साथ पौधों की स्वस्थता को सुनिश्चित करने के लिए सुपरफॉस्फेट, बोन मील, रॉक फॉस्फेट, और ट्रिपल सुपरफॉस्फेट जैसे फॉस्फोरस-युक्त उर्वरकों का उपयोग करें।")
         with st.expander("N_Deficiency"):
-            st.write("For nitrogen deficiency, use fertilizers like urea or nitrate nitrogen.")
+             st.write("अगर पौधों में अजेयक्त नाइट्रोजन (N) की कमी हो, तो पौधों की स्वस्थता को सुनिश्चित करने के लिए निम्नलिखित कदम उठाएं: पीएच समायोजन, नाइट्रोजन-युक्त पोषण, सही तापमान, और अनुपात के साथ सुपरफोस्फेट, यूरिया, निट्रेट नाइट्रोजन, और गुआनो पोषणीय उर्वरकों का उपयोग करें।")
         with st.expander("K_Deficiency"):
-            st.write("For potassium deficiency, use potassium sulfate or potassium nitrate.")
+            st.write("जब पौधों में पोटैशियम (K) की कमी हो, तो पौधों की स्वस्थता को सुनिश्चित करने के लिए निम्नलिखित कदम उठाएं: पीएच समायोजन, पोटैशियम-युक्त पोषण, सही तापमान, और अनुपात के साथ पोटैशियम सल्फेट, पोटैशियम नाइट्रेट, और वर्मी कम्पोस्ट जैसे पोटैशियम-युक्त उर्वरकों का उपयोग करें।")
         with st.expander("Healthy"):
-            st.write("Your plants are healthy! Keep up the good work.")
+            st.write("आपकी पौधों की सेहतबख्शियों को देखकर यह साबित होता है कि आप एक माहिर किसान हैं, और आपके प्यार और मेहनत से पौधों को स्वस्थ रखने का परिणाम यह है। आपका सफल होने का सबूत!.")
+
 
 if __name__ == '__main__':
     main()
