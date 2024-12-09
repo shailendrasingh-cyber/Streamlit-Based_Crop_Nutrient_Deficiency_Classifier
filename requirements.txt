@@ -1,6 +1,6 @@
-tensorflow==2.10.0          # TensorFlow version (adjust if necessary)
-pandas==1.5.3               # pandas version (adjust if necessary)
-scikit-learn==1.2.1         # scikit-learn version (adjust if necessary)
-Pillow==9.4.0               # Pillow version (adjust if necessary)
-streamlit==1.18.1           # Streamlit version (adjust if necessary)
-keras==2.10.0               # Keras version (adjust if necessary, note that TensorFlow comes with Keras)
+tensorflow==2.10       
+pandas==1.5.3               
+scikit-learn==1.2.1        
+Pillow==9.4.0              
+streamlit==1.18.1          
+keras==2.10.0              
